@@ -1,0 +1,12 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "spaCy_vectors",
+      "tensorShape": [6277, 64],
+      "tensorPath": "oss_data/spaCy_vectors_tensors.bytes",
+      "metadataPath": "oss_data/spaCy_vectors_labels.tsv",
+      "bookmarksPath": "oss_data/spaCy_vectors_bookmarks.txt"
+    }
+  ],
+  "modelCheckpointPath": "Demo datasets"
+}
