@@ -4,13 +4,16 @@ Visualizing Embeddings
 This repository houses the code and data for visualizing various word embedding experiments using TensorBoard's projector.
 
 
-### Visualizing "Learned Vector" for Attention
+### Visualizing Attention mechanism's "Learned Query Vector"
 
-spaCy's text classifier uses a `ParametricAttention` layer that should learn an optimal query vector for
+spaCy's text classifier uses an attention layer that **should** learn an optimal query vector for
 selecting the most appropriate tokens given an input. This experiment tries to understand what the query 
-vector learns by observing the change in its vector over time in relation to the nearest neighbor tokens.
+vector learns by observing the change in its vector over time.
 
-[View on Site](https://justindujardin.github.io/projector/)
+![alt text](https://github.com/justindujardin/projector/raw/ab50806029db3f7dea9d3064ce5ac7cb64fc7753/oss_data/spaCy_attn_learned_query_vector_preview.gif "Attention mechanism query vector learned over 200 training iterations")
+
+[View interactive version](https://justindujardin.github.io/projector/)
+
 
 
 ### Credits
