@@ -1,12 +1,12 @@
 {
   "embeddings": [
     {
-      "tensorName": "spaCy_vectors",
+      "tensorName": "spaCy learned attention vectors",
       "tensorShape": [6277, 64],
-      "tensorPath": "oss_data/spaCy_vectors_tensors.bytes",
-      "metadataPath": "oss_data/spaCy_vectors_labels.tsv",
-      "bookmarksPath": "oss_data/spaCy_vectors_bookmarks.txt"
+      "tensorPath": "oss_data/spaCy_attn_learned_query_vector_tensors.bytes",
+      "metadataPath": "oss_data/spaCy_attn_learned_query_vector_labels.tsv",
+      "bookmarksPath": "oss_data/spaCy_attn_learned_query_vector_bookmarks.txt"
     }
   ],
-  "modelCheckpointPath": "Demo datasets"
+  "modelCheckpointPath": "datasets"
 }
